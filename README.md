@@ -1,0 +1,2 @@
+# jstasks
+Classic tasks Javascript

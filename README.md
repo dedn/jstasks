@@ -2,12 +2,12 @@
 Classic tasks Javascript
 
 
-### 01 Polidrom
+### 00 Polidrom
 
 Given a string; you need to write a function that allows you to return true if the string is a palindrome, 
 and false otherwise. In this case, spaces and punctuation marks must be taken into account.
 
-### 02 FizzBuzz
+### 01 FizzBuzz
 It is required to write a function that displays numbers from 1 to n to the console, 
 where n is an integer that the function takes as a parameter, with the following conditions:
 
@@ -28,16 +28,21 @@ Fizzbuzz(5)
 
 
 
-### 03 Anagram
+### 02 Anagram
 This is the name of a word that contains all the letters of another word in the same number, but in a different order.
 
 #### output
 We need to write a function that checks whether two strings are anagrams, and the case of letters does not matter. 
 Only characters count; spaces or punctuation marks are not taken into account.
 
-### 04 FindVoveles
+### 03 Fibonacci
 
-### 05 Fibonacci
+### 04 FindVowels
 
 ### 05 MoveZeros
+
+### 06 Flattened
+Expand array of arrays
+
+
 

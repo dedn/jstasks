@@ -35,3 +35,9 @@ This is the name of a word that contains all the letters of another word in the 
 We need to write a function that checks whether two strings are anagrams, and the case of letters does not matter. 
 Only characters count; spaces or punctuation marks are not taken into account.
 
+### 04 FindVoveles
+
+### 05 Fibonacci
+
+### 05 MoveZeros
+

@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Elements Dynamically</title>
+
+</head>
+<body>
+<p id="Dynamic">Dynamic</p>
+</body>
+<script type="text/javascript">
+
+       const newP = document.createElement("p");
+        const textNode = document.createTextNode(" This is a new text node");
+        newP.appendChild(textNode);
+        document.getElementById("Dynamic").appendChild(newP);
+
+
+</script>
+</html>

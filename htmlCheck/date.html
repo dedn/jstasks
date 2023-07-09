@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // const time = new Date()
+  // const minute = time.getMinutes()
+  // const hour = time.getHours()
+  //
+  // console.log('hour', hour)
+  // console.log('m', minute)
+  // if(hour >= 16 && minute >= 18) {
+  //     alert('finish')
+  // } else {
+  //     alert('still do not finish')
+  // }
+
+  var x = '20';
+
+ let   func1 = () => {
+
+      var x = '5';
+
+      console.log('1', this.x);
+      console.log('this1', this)
+
+      let func2 = () => {
+          console.log('2', x)
+          console.log('3', this.x)
+          console.log('this2', this)
+      }
+
+      func2();
+
+  }
+
+  func1();
+</script>
+
+</body>
+</html>

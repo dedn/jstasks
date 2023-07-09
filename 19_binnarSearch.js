@@ -19,3 +19,5 @@ const search = (arr, target) => {
     }
     return mid
 }
+
+console.log('result', search(array, 6))

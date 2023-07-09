@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="bnt" onclick="onGreean()">
+  click and wait
+</button>
+
+<script>
+  function onRead() {
+      document.getElementById('bnt').style.color = 'red'
+      document.getElementById('bnt').style.background= 'white'
+  }
+
+function onGreean () {
+    document.getElementById('bnt').style.color = 'blue'
+    document.getElementById('bnt').style.background = 'pink'
+
+    setTimeout(()=> {
+        onRead()
+    },5000)
+}
+
+  onRead()
+
+</script>
+</body>
+</html>
